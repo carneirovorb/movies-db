@@ -1,0 +1,332 @@
+.container{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header{
+    width: 100%;
+    background-color: #116193;
+    height: 80px;  
+    line-height: 80px;
+    text-align: center;
+    vertical-align: middle;
+    color: #00E7E3;
+    font-size: 35px;
+    font-family: 'Abel', sans-serif;
+}
+
+.search{
+    margin: 0 auto;
+    max-width: 900px;
+    width: 90%;
+    height: 45px;
+    margin-top:50px;
+    margin-bottom:45px;
+    border-radius: 40px;
+    border-style: none;
+    background-color:#EBEBEB;
+    padding-left: 30px;
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+}
+
+.search::placeholder{
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+}
+
+
+.movie{
+    min-height: 310px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    display: flex;
+    background: #EBEBEB;
+    max-width: 900px;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.poster{
+    max-width: 210px;;
+    width: 510px;
+    background: #aaa;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.infos .title{
+    background-color: #116193;
+    color: #00E7E3;
+    height: 65px;
+    line-height: 30px;
+    display: flex;
+    font-size: 30px;
+    font-family: 'Abel', sans-serif;
+}
+
+
+.popularity{
+    width: 70px;
+    height: 70px;
+    line-height: 66px;
+    text-align: center;
+    background-color:  #116193;
+    border: 4px solid   #116193;
+    border-radius: 50px;
+    font-size: 25px;
+    margin:30px 15px;
+
+}
+
+.popularity div{
+    border: 4px solid   #00E7E3;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.date{
+    margin-left:110px;
+    color:#aaa;
+    font-size: 18px;
+}
+
+.sinopse{
+    margin: 35px 25px;
+    font-size: 15px;
+    color:#555;
+    display: block;
+    font-family: 'Abel', sans-serif;
+}
+
+
+.tags{
+    margin-left: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Abel', sans-serif;
+    
+}
+
+.tags span{
+  background: #fff;  
+  padding:4px 10px;
+  border:2px solid  #538cb0;
+  border-radius: 20px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #538cb0;
+  height: 20px;
+  
+}
+
+form{
+    display: flex;
+}
+
+.buttons{
+    display: flex;
+    margin: 0 auto;
+}
+.buttons button{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    border-style: double;
+    border: 3px solid   #00E7E3;
+    background-color:  #116193;
+    color:#00E7E3;
+    cursor: pointer;
+    margin:10px 3px; 
+}
+
+
+.Bcontent{
+    display: flex;
+    flex-direction: column;
+    margin-top:40px; 
+    max-width: 1000px;
+    background-color: #f2f2f2;
+}
+
+.Btitle{
+    font-family: 'Abel', sans-serif;
+    color: #116193;
+    font-size: 30px;
+    display: flex;
+    height: 65px;
+    line-height: 65px;
+    padding: 0 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #e6e6e6;
+}
+
+.BmovieDate{
+    font-family: 'Lato', sans-serif;
+    color: #aaa;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.Binfos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+}
+
+.Bcapa{
+    background: #aaa;
+    width: 340px;
+    float: right;
+}
+
+.Bdata{
+    padding: 40px;
+    max-width: 660px;
+}
+
+.Bdata span{
+    font-family: 'Abel', sans-serif;
+    color: #116193;
+    font-size: 22px;
+}
+
+.tags span{
+
+    font-size: 15px;
+}
+
+.Bsinopse{
+    margin:0;
+    font-family: 'Lato', sans-serif;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.Binformacoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-bottom: 40px;
+}
+
+.Binformacoes div{
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+
+}
+
+.Binformacoes div span{
+    text-align: center;
+}
+
+.Binformacoes div span:first-child { 
+    font-size: 20px;
+ }
+
+ .Binformacoes div span:nth-child(2) { 
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #555;
+ }
+
+ .Bpopularity{
+    width: 115px;
+    height: 115px;
+    line-height: 108px;
+    text-align: center;
+    background-color: #116193;
+    border: 4px solid #116193;
+    border-radius: 80px;
+    font-size: 40px;
+    font-family: 'Abel', sans-serif;
+    color: #00E7E3;
+ }
+
+ .Bpopularity div{
+    width: 115px;
+    height: 115px;
+    border: 7px solid #00E7E3;
+    border-radius: 69px;
+    box-sizing: border-box;
+}
+
+ .Btags{
+    margin-left: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.BlistTags{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.Btags div span{
+  background: #fff;  
+  padding:4px 10px;
+  border:2px solid  #538cb0;
+  border-radius: 20px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #538cb0;
+  height: 20px;
+}
+
+
+@media (max-width: 600px) 
+{
+
+    .movie{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .poster{
+        height: 500px;
+        min-width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .infos .title{
+        font-size: 18px;
+        line-height: 60px;
+    }
+
+    .Binfos{
+        display: flex;
+        flex-direction: column;
+    }
+    .Bcapa{
+        height: 600px;
+        min-width: 100%;
+    }
+
+    .Btitle{
+        font-size: 18px;
+    }
+
+}
